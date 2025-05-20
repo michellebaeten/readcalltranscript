@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Assigned_to__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Assigned to</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Calls</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Call_Duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Duration</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_Pro_Reactive__c</fullName>
+        <label>Call Pro/Reactive</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Proactive</fullName>
+                    <default>false</default>
+                    <label>Proactive</label>
+                </value>
+                <value>
+                    <fullName>Reactive</fullName>
+                    <default>false</default>
+                    <label>Reactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Complaints__c</fullName>
+        <label>Complaints</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Digital_Teams_Call__c</fullName>
+        <defaultValue>true</defaultValue>
+        <label>Digital Teams Call</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Due_Date__c</fullName>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Calls</relationshipLabel>
+        <relationshipName>Calls</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Activity__c</fullName>
+        <label>Primary Activity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales - Product &amp; Proposition</fullName>
+                    <default>false</default>
+                    <label>Sales - Product &amp; Proposition</label>
+                </value>
+                <value>
+                    <fullName>Sales - Illustrate &amp; Apply</fullName>
+                    <default>false</default>
+                    <label>Sales - Illustrate &amp; Apply</label>
+                </value>
+                <value>
+                    <fullName>Servicing - Post-Sale Servicing</fullName>
+                    <default>false</default>
+                    <label>Servicing - Post-Sale Servicing</label>
+                </value>
+                <value>
+                    <fullName>Contact Unavailable</fullName>
+                    <default>false</default>
+                    <label>Contact Unavailable</label>
+                </value>
+                <value>
+                    <fullName>Prompt Follow up</fullName>
+                    <default>false</default>
+                    <label>Prompt Follow up</label>
+                </value>
+                <value>
+                    <fullName>Quote Follow up</fullName>
+                    <default>false</default>
+                    <label>Quote Follow up</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Primary_Product__c</fullName>
+        <label>Primary Product</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PruFund</fullName>
+                    <default>false</default>
+                    <label>PruFund</label>
+                </value>
+                <value>
+                    <fullName>ISAs</fullName>
+                    <default>false</default>
+                    <label>ISAs</label>
+                </value>
+                <value>
+                    <fullName>RA - Pre Vest</fullName>
+                    <default>false</default>
+                    <label>RA - Pre Vest</label>
+                </value>
+                <value>
+                    <fullName>RA - Post Vest</fullName>
+                    <default>false</default>
+                    <label>RA - Post Vest</label>
+                </value>
+                <value>
+                    <fullName>TIP</fullName>
+                    <default>false</default>
+                    <label>TIP</label>
+                </value>
+                <value>
+                    <fullName>Offshore Investments</fullName>
+                    <default>false</default>
+                    <label>Offshore Investments</label>
+                </value>
+                <value>
+                    <fullName>Collectives</fullName>
+                    <default>false</default>
+                    <label>Collectives</label>
+                </value>
+                <value>
+                    <fullName>Onshore Bonds</fullName>
+                    <default>false</default>
+                    <label>Onshore Bonds</label>
+                </value>
+                <value>
+                    <fullName>PruFund Planet</fullName>
+                    <default>false</default>
+                    <label>PruFund Planet</label>
+                </value>
+                <value>
+                    <fullName>Non Product</fullName>
+                    <default>false</default>
+                    <label>Non Product</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Service__c</fullName>
+        <label>Sales/Service</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Secondary_Activity__c</fullName>
+        <label>Secondary Activity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Education/Demo</fullName>
+                    <default>false</default>
+                    <label>Education/Demo</label>
+                </value>
+                <value>
+                    <fullName>Campaign Follow up</fullName>
+                    <default>false</default>
+                    <label>Campaign Follow up</label>
+                </value>
+                <value>
+                    <fullName>Business Planning Action</fullName>
+                    <default>false</default>
+                    <label>Business Planning Action</label>
+                </value>
+                <value>
+                    <fullName>Complaint/Escalation Logged</fullName>
+                    <default>false</default>
+                    <label>Complaint/Escalation Logged</label>
+                </value>
+                <value>
+                    <fullName>RA New Funds</fullName>
+                    <default>false</default>
+                    <label>RA New Funds</label>
+                </value>
+                <value>
+                    <fullName>Paid Bus Follow Up</fullName>
+                    <default>false</default>
+                    <label>Paid Bus Follow Up</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>true</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Task_Activity_Type__c</fullName>
+        <label>Task Activity Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call</fullName>
+                    <default>false</default>
+                    <label>Call</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Meeting</fullName>
+                    <default>false</default>
+                    <label>Meeting</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Call</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>C-{00000}</displayFormat>
+        <label>Call Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Calls</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

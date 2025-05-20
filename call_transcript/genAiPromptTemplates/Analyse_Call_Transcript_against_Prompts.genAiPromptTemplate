@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_2</activeVersionIdentifier>
+    <developerName>Analyse_Call_Transcript_against_Prompts</developerName>
+    <masterLabel>Analyse Call Transcript against Prompts</masterLabel>
+    <templateVersions>
+        <content>Go through the Call Transcript file and look for anything that might indicate that the following topics were discussed:
+
+{!$Input:Prompts}
+
+Generate a json formatted output which starts with the Prompt Number (for example P-000001) and then a True value is this Prompt was discussed or a False value if the Prompt was not discussed in the call. 
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Prompts</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Prompts</masterLabel>
+            <referenceName>Input:Prompts</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini20Flash001</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Go through the Call Transcript file and look for anything that might indicate that the following topics were discussed:
+
+{!$Input:Prompts}
+
+Generate a json formatted output which starts with the Prompt Number (for example P-000001) and then a True value if this Prompt was discussed or a False value if the Prompt was not discussed in the call. 
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Prompts</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Prompts</masterLabel>
+            <referenceName>Input:Prompts</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini20Flash001</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_2</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

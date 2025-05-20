@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ProcessJsonData</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ContentVersionTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Call__c</members>
+        <members>Prompt__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>AgentOrchestration</members>
+        <members>Create_Call_and_Prompt</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>Analyse_Call_Transcript_against_Prompts</members>
+        <members>Process_Call_Transcript</members>
+        <name>GenAiPromptTemplate</name>
+    </types>
+    <types>
+        <members>Call__c-Call Layout</members>
+        <members>Prompt__c-Prompt Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>All</members>
+        <name>ListView</name>
+    </types>
+    <version>63.0</version>
+</Package>

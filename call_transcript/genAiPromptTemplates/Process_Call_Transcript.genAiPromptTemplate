@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_7</activeVersionIdentifier>
+    <developerName>Process_Call_Transcript</developerName>
+    <masterLabel>Process Call Transcript</masterLabel>
+    <templateVersions>
+        <content>Read the Call Transcript File and based on the contents create a response in the following format:
+
+Subject:
+Sales or Service:
+Was the Call Pro or Reactive:
+Call Duration:
+Complaints (Yes/No):
+Microsoft Teams Call (Yes/No):
+Status:
+Primary Product:
+Primary Activity:
+Secondary Activity:
+Comments (Summary of call):
+Contact: 
+
+If you can&apos;t find a value for one of these fields leave it blank.
+
+
+
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini20Flash001</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Read the Call Transcript File and based on the contents create a response with the following values in it in JSON Format:
+
+Subject:
+Sales or Service:
+Was the Call Pro or Reactive:
+Call Duration:
+Complaints (Yes/No):
+Microsoft Teams Call (Yes/No):
+Status:
+Primary Product:
+Primary Activity:
+Secondary Activity:
+Comments (Summary of call):
+Contact: 
+
+If you can&apos;t find a value for one of these fields leave it blank.
+
+
+
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini20Flash001</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Read the Call Transcript File and based on the contents create a response with the following values in it in JSON Format:
+
+Subject:
+Sales_or_Service:
+Was_the_Call_Pro_or_Reactive:
+Call_Duration:
+Were_there_any_Complaints:
+Was_this_a_Microsoft_Teams_Call:
+Status: &quot;Completed&quot;
+Primary_Product:
+Primary_Activity:
+Secondary_Activity:
+Comments_or_Summary_of_call:
+Contact: 
+
+If you can&apos;t find a value for one of these fields leave it blank.
+
+
+
+
+
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini20Flash001</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_3</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Read the Call Transcript File and based on the contents create a response with the following values in it in JSON Format:
+
+Subject:
+Sales_or_Service:
+Was_the_Call_Pro_or_Reactive:
+Call_Duration:
+Were_there_any_Complaints:
+Was_this_a_Microsoft_Teams_Call:
+Status: &quot;Completed&quot;
+Primary_Product:
+Primary_Activity:
+Secondary_Activity:
+Comments_or_Summary_of_call:
+Contact: 
+
+If you can&apos;t find a value for one of these fields leave it blank.
+
+
+
+
+
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Draft</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_4</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Read the Call Transcript File and based on the contents create a response with the following values in it in JSON Format:
+
+Subject:
+Sales_or_Service:
+Was_the_Call_Pro_or_Reactive:
+Call_Duration:
+Were_there_any_Complaints:
+Was_this_a_Microsoft_Teams_Call:
+Status: &quot;Completed&quot;
+Primary_Product:
+Primary_Activity:
+Secondary_Activity:
+Comments_or_Summary_of_call:
+Contact: 
+
+If you can&apos;t find a value for one of these fields leave it blank.
+
+
+
+
+
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Draft</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_5</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Read the Call Transcript File and based on the contents create a response with the following values in it in JSON Format:
+
+Subject:
+Sales_or_Service:
+Was_the_Call_Pro_or_Reactive:
+Call_Duration:
+Were_there_any_Complaints:
+Was_this_a_Microsoft_Teams_Call:
+Status: &quot;Completed&quot;
+Primary_Product:
+Primary_Activity:
+Secondary_Activity:
+Comments_or_Summary_of_call:
+Contact: 
+
+For the &apos;Primary_Activity&apos; value, choose one of the following options: 
+&apos;Sales - Illustrate &amp; Apply&apos; ,
+&apos;Sales - Product &amp; Proposition&apos; ,
+&apos;Servicing - Post-Sale Servicing&apos;,
+&apos;Contact Unavailable&apos; ,
+&apos;Prompt Follow up&apos; or
+&apos;Quote Follow up&apos;
+
+For the &apos;Secondary_Activity&apos; value, choose one of the following options:
+&apos;Education/Demo&apos;,
+&apos;Campaign Follow up&apos;,
+&apos;Business Planning Action&apos;,
+&apos;Complaint/Escalation Logged&apos;,
+&apos;RA New Funds&apos; or
+&apos;Paid Bus Follow Up&apos;
+
+For the &apos;Primary_Product&apos; value, choose one of the following options:
+&apos;ISAs&apos;,
+&apos;RA - Pre Vest&apos;,
+&apos;RA - Post Vest&apos;,
+&apos;TIP&apos;,
+&apos;Offshore Investments&apos;,
+&apos;Collectives&apos;,
+&apos;Onshore Bonds&apos;,
+&apos;PruFund&apos;,
+&apos;PruFund Planet&apos; or
+&apos;Non Product&apos;
+
+
+
+If you can&apos;t find a value for one of these fields leave it blank.
+
+
+
+
+
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini20Flash001</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_6</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Read the Call Transcript File and based on the contents create a response with the following values in it in JSON Format:
+
+Subject:
+Sales_or_Service:
+Was_the_Call_Pro_or_Reactive:
+Call_Duration:
+Were_there_any_Complaints:
+Was_this_a_Microsoft_Teams_Call:
+Status: &quot;Completed&quot;
+Primary_Product:
+Primary_Activity:
+Secondary_Activity:
+Comments_or_Summary_of_call:
+Contact: 
+
+For the &apos;Primary_Activity&apos; value, choose one of the following options: 
+&apos;Sales - Illustrate &amp; Apply&apos; ,
+&apos;Sales - Product &amp; Proposition&apos; ,
+&apos;Servicing - Post-Sale Servicing&apos;,
+&apos;Contact Unavailable&apos; ,
+&apos;Prompt Follow up&apos; or
+&apos;Quote Follow up&apos;
+
+For the &apos;Secondary_Activity&apos; value, choose one of the following options:
+&apos;Education/Demo&apos;,
+&apos;Campaign Follow up&apos;,
+&apos;Business Planning Action&apos;,
+&apos;Complaint/Escalation Logged&apos;,
+&apos;RA New Funds&apos; or
+&apos;Paid Bus Follow Up&apos;
+
+For the &apos;Primary_Product&apos; value, choose one of the following options:
+&apos;ISAs&apos;,
+&apos;RA - Pre Vest&apos;,
+&apos;RA - Post Vest&apos;,
+&apos;TIP&apos;,
+&apos;Offshore Investments&apos;,
+&apos;Collectives&apos;,
+&apos;Onshore Bonds&apos;,
+&apos;PruFund&apos;,
+&apos;PruFund Planet&apos; or
+&apos;Non Product&apos;
+
+For the &apos;Were_there_any_Complaints&apos; value, set &apos;Yes&apos; if any complaints were made on the call or &apos;No&apos; if no complaints were made. 
+
+
+
+If you can&apos;t find a value for one of these fields leave it blank.
+
+
+
+
+
+</content>
+        <inputs>
+            <apiName>Transcript</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini20Flash001</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>8zld2ICyFGIJVyyuY3p6nqyWR6CCRMB4UvP+vTbxYd8=_7</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
